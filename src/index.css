@@ -1,0 +1,55 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.h {
+  align-content: center;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 50px;
+  color: bisque;
+  font-size: 100px;
+  text-align: center;
+  
+}
+
+body {
+  background-color: bisque;
+  padding: 60px;
+}
+
+
+input {
+  color: grey;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  align-content: center;
+  border: 1px solid rgb(10, 10, 10);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.card p {
+  padding: 5px;
+  text-align: center;
+}
+
+.card img {
+  max-height: 170px;
+}
+
+.foo {
+  font-size: 12px;
+  text-align: center;
+}
