@@ -8,7 +8,7 @@ export const GifExpertApp = () => {
 
     return (
         <>
-            <h2 className='h'>Gif-App</h2>
+            <h2>Gif-App</h2>
             <p> Busca tu Gif preferido!! </p>
             <AddCategory setCategories={ setCategories } />
             
@@ -23,7 +23,7 @@ export const GifExpertApp = () => {
                     ))
                 }
             </ol>
-            <footer className='Foo'> App web creada por Ariel-devs </footer>
+            <footer> App web creada por Ariel-devs </footer>
         </>
     )
 }
